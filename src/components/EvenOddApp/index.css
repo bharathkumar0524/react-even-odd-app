@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.even-odd-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  border-radius: 10px;
+  width: 50%;
+  height: 500px;
+}
+.heading {
+  font-size: 42px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+.count {
+  font-size: 44px;
+}
+.description {
+  font-size: 20px;
+  font-family: 'Robot';
+  color: #334155;
+}
+.button {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 18px;
+  padding-left: 18px;
+  border-radius: 8px;
+  border: none;
+}
+.note {
+  font-size: 12px;
+  font-family: 'Robot';
+}
